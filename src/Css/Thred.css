@@ -1,0 +1,38 @@
+.main-thred{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 50px;
+    margin-top: 100px;
+}
+.thred{
+    max-width: 1400px;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.thred p{
+    font-size: 20px;
+}
+.thred p i{
+    font-style: normal;
+    padding: 1px 6px;
+   background-color: #e67e22;
+   color: white;
+   font-size: 21px;
+}
+marquee{
+    background-color: blue;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+ .logos{
+    font-size: 30px;
+    color: white;
+    display: flex;
+     
+ }
