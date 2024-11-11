@@ -7,13 +7,16 @@ const Thred_Section = () => {
     <div className='main-thred'>
     <div className='thred'>
         <p>We’re backed by <i>Y</i> Combinator logo– an early investor in companies like...</p>
-        <marquee behavior="" direction="">
-        <div className='logos'>
-             
-        </div>
-     
-      
-        </marquee>
+          <div className='logo-img'>
+            <img src="https://blaze.money/images/logos/yc-group/logo-coinbase.svg" alt="" />
+            <img src="https://blaze.money/images/logos/yc-group/logo-airbnb.svg" alt="" />
+            <img src="https://blaze.money/images/logos/yc-group/logo-dropbox.svg" alt="" />
+            <img src="https://blaze.money/images/logos/yc-group/logo-dropbox.svg" alt="" />
+            <img src="https://blaze.money/images/logos/yc-group/logo-gitlab.svg" alt="" />
+            <img src="https://blaze.money/images/logos/yc-group/logo-brex.svg" alt="" />
+            <img src="https://blaze.money/images/logos/yc-group/logo-webflow.svg" alt="" />
+            <img src="https://blaze.money/images/logos/yc-group/logo-webflow.svg" alt="" />
+          </div>
     </div>
     </div>
     </>

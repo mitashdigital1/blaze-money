@@ -10,7 +10,7 @@ const Hero_Section = () => {
                         <span>Backed by <i>Y</i> Combinator logo</span>
                         <h1>PAY ANYONE <br /> <i> ANYWHERE </i> INSTANTLY</h1>
                         <p>Blaze is the world's first payments app for modern nomads. Pay anyone for nearly free, across multiple currencies. It's fast, fun and easy.</p>
-                        <div className='btn'>
+                        <div className='btn-1'>
                             <button>DOWNLOAD APP</button>
                         </div>
                     </div>

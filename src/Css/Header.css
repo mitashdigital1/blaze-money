@@ -20,7 +20,7 @@
   margin: 10px auto;
   /* position: static; */
   gap: 200px;
-  padding-left: 5px;
+  /* padding-left: 5px; */
   /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1); */
  }
 
@@ -33,7 +33,10 @@
  }
  .nav-center-item .dropdown li a{
     color: black;
-    font-size: 1.2rem;
+    font-size: 18.2px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji
  }
 
  .nav-center-item ul li a:hover{
@@ -54,25 +57,8 @@
     display: inline-block;
   }
   
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    top: 70px;
-    left: -30px;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #0984e3; color: #ffff;}
-  .dropdown:hover .dropdown-content {display: block;}
+
+ 
   
  .nav-right-item{
     display: flex;
@@ -93,13 +79,16 @@
  .btn button{
     background-color:rgb(250, 240, 0);
     width: 170px;
-    height: 72px;
+    height: 48px;
     border: none;
     outline: none;
     font-size: 16px;
     font-weight: 700;
     padding: 2px 2px;
     cursor: pointer;
+    transform: scale(1, 1.5);
+   font-family: Uncut Sans, "__defaultFont_095b20", "__defaultFont_Fallback_095b20"
+
  }
  #hammenu{
     font-size: 22px;
@@ -142,7 +131,7 @@
  
  @media  screen and (min-width:200px) and (max-width:767px){
     .navbar{
-        gap: 0px;
+        gap: 20px;
         padding: 0px 40px;
         width: 100%;
     }
@@ -185,7 +174,7 @@
     }  
  }
 
- @media  screen and (min-width:1025px) and (max-width:1200px) {
+ @media  screen and (min-width:1025px) and (max-width:1250px) {
    .navbar{
        gap: 100px;
    }  

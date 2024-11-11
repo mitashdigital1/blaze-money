@@ -1,53 +1,56 @@
 import React from 'react'
+import '../Css/Footer.css'
+import {IoLogoInstagram,IoLogoLinkedin } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
+import LogoFoter from "../assets/blaze videos/logo.png"
 
 
 const Footer = () => {
     return (
         <>
-            <div>
-                <div>
+            <div className='main-footer'>
+                <div className='footer'>
                     <div className="footer-left-logo">
                         <a href="#">
-                            <span>BLAZE</span>
+                           <img src={LogoFoter} alt="" />
                         </a>
                     </div>
 
                     <div className="footer-center-item">
-                        <ul>
-                            <li><a href="#">Payments</a></li>
-                            <li><a href="#">Business</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-
+                      <a href="#">Payments</a>
+                      <a href="#">Business</a>
+                      <a href="#">About</a>
+                      <a href="#">Contact</a>
                     </div>
 
                     <div className="nav-right-item">
 
-                        <div>
+                        <div className='btn1'>
                             <button>DOWNLOAD APP</button>
                         </div>
                     </div>
                 </div>
 
 
-                <div>
+                <div className='footer-second'>
                     <a href="#">Terms of use Privacy</a>
-                    <div>
-                        icons
+                    <div className='icons'>
+                    <FaXTwitter />
+                    <IoLogoInstagram />
+                    <IoLogoLinkedin/>
                     </div>
                 </div>
 
-                <div>
+                <div className='footer-thred'>
                     <span>©2024 Blaze Payments Inc.</span>
-                    <span>All rights reserved.</span>
-                </div>
-                <div>
+                    <span className='span-two'>All rights reserved.</span>
+                    <div className='footer-end'>
                     <span>We use cookies to optimise our services. Read our privacy policy.</span>
-                    <a href="#">icon</a>
-                    <a href="#">icon</a>
-
+                    <button id='btn1'>DENY</button>
+                    <button>ACCEPT</button>
                 </div>
+                </div>
+               
             </div>
         </>
     )
