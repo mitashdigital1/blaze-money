@@ -1,0 +1,165 @@
+ 
+.main{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://next.aglietech.wowtheme7.com/assets/img/banner-3/5.png');
+  background-position: center;
+  background-size: cover;
+  padding:20px 20px;
+ 
+}
+.hero-sec{
+   width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+   margin: auto;
+   
+}
+.hero-left-item{
+    padding: 10px 20px;
+    width: 600px; 
+   
+}
+.hero-left-item span{
+   font-size: 15px;
+   background-color: #ffff;
+   border-radius: 15px;
+   width: 220px;
+   padding: 6px;
+   box-shadow: 2px 2px 3px rgb(225, 223, 223),-2px -2px 3px rgb(225, 223, 223);
+   font-family: 'Uncut Sans';
+   font-weight: normal;
+}
+.hero-left-item span i{
+    font-style: normal;
+    background-color: #e67e22;
+    color: white;
+    padding: 0px 5px;
+    font-size: 19px;
+    font-family: 'Uncut Sans';
+    font-weight: normal;
+}
+.hero-left-item h1{
+  font-size: 96px;
+    line-height: 80%;
+    width: 400px;
+    transform: scale(1.4, 1.3);
+     font-weight: 800;
+     margin-top: 80px;
+     margin-left: 80px;
+}
+.hero-left-item h1 i{
+    color: rgb(250, 240, 0);
+    font-style: normal;
+    transform: scale(1.4, 1.3);
+    font-weight: 800;
+    
+}
+.hero-left-item p{
+    font-size: 21px;
+    width: 500px;
+    font-family: 'Uncut Sans';
+    font-weight: 500;
+    margin-top: 80px;
+}
+.hero-left-item  .btn-1 button{
+    background-color:rgb(250, 240, 0);
+    width: 170px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 2px 2px;
+    cursor: pointer;
+    transform: scale(1, 1.5);
+   margin-top: 50px;
+ }
+ .hero-right-item{
+   width: 520px;
+ 
+   
+ }
+ .hero-right-item video{
+  width: 480px; 
+  border-radius: 30%;
+  margin: 20px;
+ }
+
+
+
+
+
+
+
+ @media  screen and (min-width:200px) and (max-width:767px){
+  .hero-sec{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    width: 300px;
+  
+  }
+  .hero-left-item{
+    width: 400px;
+    margin-left: 70px;
+  }
+  .hero-left-item span{
+    padding: 8px;
+  }
+  .hero-left-item h1{
+    font-size: 40px;
+    /* width: 350px; */
+  }
+  .hero-left-item p{
+    width: 300px;
+  }
+  .hero-right-item{
+    width: 400px;
+  }
+  .hero-right-item video{
+    width: 400px;
+  }
+  
+ }
+ @media  screen and (min-width:768px) and (max-width:991px) {
+  .hero-sec{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+ }
+
+ @media  screen and (min-width:992px) and (max-width:1024px) {  
+  .hero-sec{
+    gap: 0;
+    
+  }
+  .hero-left-item h1{
+    font-size: 55px;
+  }
+  .hero-right-item video{
+    width: 400px;
+  } 
+ }
+
+ @media  screen and (min-width:1025px) and (max-width:1250px) {  
+  .hero-sec{
+     gap: 0;
+    
+  }
+  .hero-left-item h1{
+    font-size: 60px;
+  }
+  .hero-right-item video{
+    width: 450px;
+  }
+}
+ 
