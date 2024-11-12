@@ -1,7 +1,11 @@
 import React, { useState } from 'react'
 import '../Css/Header.css'
 import Hero from './Hero_Section'
+<<<<<<< HEAD
 import Logo from  '../assets/blaze videos/logo.png'
+=======
+import Logo from  '../assets/Your paragraph text.png'
+>>>>>>> 6809c92 (few more little changes)
 import { Link } from 'react-router-dom'
 
 const Header = () => {
@@ -26,6 +30,10 @@ const Header = () => {
                
               <li><Link to="/business">Business</Link></li>
               <li><Link to="/about">About</Link></li>
+<<<<<<< HEAD
+=======
+              <li><Link to="/careers">Careers</Link></li>
+>>>>>>> 6809c92 (few more little changes)
               <li><Link to="/contact">Contact</Link></li>
             </ul>
           </div>

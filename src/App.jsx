@@ -10,10 +10,19 @@ import Header from './Components/Header'
  import About from './Screens/About'
  import Contact  from './Screens/Contact'
 import Home from './Screens/Home'
+<<<<<<< HEAD
+=======
+import Careers from './Screens/Careers'
+>>>>>>> 6809c92 (few more little changes)
 
 
  
  const App = () => {
+<<<<<<< HEAD
+=======
+   
+ 
+>>>>>>> 6809c92 (few more little changes)
    return (
      <div>
        {/* <Home/> */}
@@ -22,6 +31,10 @@ import Home from './Screens/Home'
         <Route path='/' index element={<Home/>}/>
         <Route path='business' element={<Business/>}/>
         <Route path='about' element={<About/>}/>
+<<<<<<< HEAD
+=======
+        <Route path='careers' element={<Careers/>}/>
+>>>>>>> 6809c92 (few more little changes)
         <Route path='contact' element={<Contact/>}/>
       </Routes>
     </BrowserRouter>

@@ -2,7 +2,11 @@ import React from 'react'
 import '../Css/Footer.css'
 import {IoLogoInstagram,IoLogoLinkedin } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
+<<<<<<< HEAD
 import LogoFoter from "../assets/blaze videos/logo.png"
+=======
+import LogoFoter from "../assets/Your paragraph text.png"
+>>>>>>> 6809c92 (few more little changes)
 
 
 const Footer = () => {
@@ -33,7 +37,11 @@ const Footer = () => {
 
 
                 <div className='footer-second'>
+<<<<<<< HEAD
                     <a href="#">Terms of use Privacy</a>
+=======
+                    
+>>>>>>> 6809c92 (few more little changes)
                     <div className='icons'>
                     <FaXTwitter />
                     <IoLogoInstagram />
@@ -43,7 +51,12 @@ const Footer = () => {
 
                 <div className='footer-thred'>
                     <span>©2024 Blaze Payments Inc.</span>
+<<<<<<< HEAD
                     <span className='span-two'>All rights reserved.</span>
+=======
+                    <span className='span-two'>Terms of use   Privacy policy</span>
+                    
+>>>>>>> 6809c92 (few more little changes)
                     <div className='footer-end'>
                     <span>We use cookies to optimise our services. Read our privacy policy.</span>
                     <button id='btn1'>DENY</button>

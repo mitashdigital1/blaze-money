@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+ 
+ 
+>>>>>>> 6809c92 (few more little changes)
  .nav{
     background-image: url('https://next.aglietech.wowtheme7.com/assets/img/banner-3/5.png');
    background-position: center;
@@ -18,21 +23,38 @@
   align-items: center;
   justify-content:space-between;
   margin: 10px auto;
+<<<<<<< HEAD
   /* position: static; */
   gap: 200px;
   /* padding-left: 5px; */
   /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1); */
+=======
+  gap: 110px;
+  
+ }
+ .nav-left-logo{
+   width: 140px;
+   margin-left: 20px;
+ }
+ .nav-left-logo img{
+   width: 100%;
+>>>>>>> 6809c92 (few more little changes)
  }
 
 
  .nav-center-item .dropdown{
     display: flex;
     align-items: center;
+<<<<<<< HEAD
     gap: 50px;
+=======
+    gap: 40px;
+>>>>>>> 6809c92 (few more little changes)
     margin-left: 30px;
  }
  .nav-center-item .dropdown li a{
     color: black;
+<<<<<<< HEAD
     font-size: 18.2px;
     box-sizing: border-box;
     color: rgb(0, 0, 0);
@@ -41,6 +63,21 @@
 
  .nav-center-item ul li a:hover{
      border-bottom: 0.1rem solid black;
+=======
+    font-size: 17px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid #fff;
+    font-family: 'Uncut Sans';
+      font-weight: normal;
+  
+   
+     
+ }
+
+ .nav-center-item ul li a:hover{
+     border-bottom: 1px solid black;
+>>>>>>> 6809c92 (few more little changes)
  }
 
  /* dropdown */
@@ -70,7 +107,14 @@
  .figth-first-item a{
     margin-left: 10px;
     color: black;
+<<<<<<< HEAD
     font-size: 1.2rem;
+=======
+    font-size: 1.1rem;
+    border-bottom: 1px solid #fff;
+    font-family: 'Uncut Sans';
+    font-weight: normal;
+>>>>>>> 6809c92 (few more little changes)
  }
  .figth-first-item a:hover{
   border-bottom: 1px solid black   ;
@@ -79,6 +123,7 @@
  .btn button{
     background-color:rgb(250, 240, 0);
     width: 170px;
+<<<<<<< HEAD
     height: 48px;
     border: none;
     outline: none;
@@ -88,6 +133,16 @@
     cursor: pointer;
     transform: scale(1, 1.5);
    font-family: Uncut Sans, "__defaultFont_095b20", "__defaultFont_Fallback_095b20"
+=======
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 0px 2px;
+    cursor: pointer;
+    transform: scale(1, 1.8);
+   font-weight: 900;
+>>>>>>> 6809c92 (few more little changes)
 
  }
  #hammenu{

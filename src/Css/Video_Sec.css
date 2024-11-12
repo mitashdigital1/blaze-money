@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgb(250, 240, 0);
+<<<<<<< HEAD
  
     padding: 80px 50px;
 }
@@ -12,6 +13,14 @@
     width: 80%;
     height: 50%;   
    margin: auto;
+=======
+    padding: 80px 50px;
+}
+.video-content{
+    width: 1000px;
+    height: 500px;   
+   
+>>>>>>> 6809c92 (few more little changes)
 }
  
 .video-content video {
@@ -27,7 +36,11 @@
 .text p{
     font-size: 100%;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-weight: 800;
+=======
+    font-weight: 900;
+>>>>>>> 6809c92 (few more little changes)
     transform: scale(.8, 1.5);
     color:rgb(250, 240, 0) ;
     letter-spacing: 2px;

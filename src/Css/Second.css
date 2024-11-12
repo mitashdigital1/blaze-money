@@ -9,18 +9,32 @@
 .second{
     max-width: 1400px;
     display: flex;
+<<<<<<< HEAD
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
 .main-second .box-one{
     width: 30%;
+=======
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: 5px 35px;
+}
+.main-second .box-one{
+    width: 27%;
+>>>>>>> 6809c92 (few more little changes)
     overflow: hidden;
     height: 200px;
     border-radius: 4px;
     margin: auto;   
     background-color: #ffff;
+<<<<<<< HEAD
    box-shadow: 2px 2px 3px rgb(225, 223, 223),-2px -2px 3px rgb(225, 223, 223);
+=======
+   box-shadow: 2px 2px 3px rgb(250, 249, 249),-2px -2px 3px rgb(249, 246, 246);
+>>>>>>> 6809c92 (few more little changes)
    padding: 20px 20px;
   display: flex;
   flex-direction: column;
@@ -28,6 +42,7 @@
   gap: 20px;
 }
 .main-second .box-one h2{
+<<<<<<< HEAD
     font-size: 33px;
     cursor: pointer;
     font-weight: 700;
@@ -36,6 +51,14 @@
    position: relative;
    right: 30px;
    font-family: Uncut Sans, "__defaultFont_095b20", "__defaultFont_Fallback_095b20"
+=======
+    font-size: 40px;
+    cursor: pointer;
+    font-weight: 900;
+    letter-spacing: 2px;
+    
+   
+>>>>>>> 6809c92 (few more little changes)
 }
 .main-second .box-one h2:hover{
 color: #3498db;
@@ -43,7 +66,14 @@ transition: ease-in 0.5s;
 }
 
 .main-second .box-one p{
+<<<<<<< HEAD
     font-size: 17px;
+=======
+    font-size: 16px;
+    font-family: 'Uncut Sans';
+    font-weight: normal;
+   
+>>>>>>> 6809c92 (few more little changes)
 }
 
 
@@ -76,9 +106,13 @@ transition: ease-in 0.5s;
 }
 
 @media  screen and (min-width:992px) and (max-width:1024px) {  
+<<<<<<< HEAD
     .second{
      
     } 
+=======
+    
+>>>>>>> 6809c92 (few more little changes)
 }
 
 @media  screen and (min-width:1025px) and (max-width:1200px) {  

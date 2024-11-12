@@ -9,7 +9,11 @@ const Seven_Section = () => {
         <div className='seven'>
 
           <div className="right-seven-sec-item">
+<<<<<<< HEAD
             <h1>Discover local
+=======
+            <h1>Discover local 
+>>>>>>> 6809c92 (few more little changes)
             businesses</h1>
             <p>Forget about cash. Discover local businesses that accept Pay with Blaze and offer discounts to travellers. Starting with Mexico City, and soon expanding to other nomad hubs.</p>
           </div>

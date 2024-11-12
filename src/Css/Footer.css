@@ -12,8 +12,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     gap: 150px; 
    width: 1000px;
+=======
+    gap: 190px; 
+    width: 1000px;
+>>>>>>> 6809c92 (few more little changes)
   
 }
 
@@ -28,9 +33,16 @@
 }
 .footer-center-item a{
     display: block;
+<<<<<<< HEAD
     font-size: 20px;
     color: black;
    font-family: Uncut Sans, "__defaultFont_095b20", "__defaultFont_Fallback_095b20"
+=======
+    font-size: 18px;
+    color: black;
+    font-family: 'Uncut Sans';
+    font-weight: 500;
+>>>>>>> 6809c92 (few more little changes)
 
 }
  
@@ -42,13 +54,18 @@
     border: none;
     outline: none;
     font-size: 16px;
+<<<<<<< HEAD
     font-weight: 700;
+=======
+    font-weight: 900;
+>>>>>>> 6809c92 (few more little changes)
     padding: 5px 5px;
     cursor: pointer;
     border-radius: 30px;
     transform: scale(.8, 1.5);
  }
 
+<<<<<<< HEAD
  .footer-second {
  margin-left: 50px;
  }
@@ -60,6 +77,12 @@
  }
  .footer-second .icons{
    font-size: 22px;
+=======
+ 
+
+ .footer-second .icons{
+   font-size: 25px;
+>>>>>>> 6809c92 (few more little changes)
    margin-top: 30px;
    cursor: pointer;
  }
@@ -72,11 +95,21 @@
  }
  .footer-thred span{
 color: rgb(91, 89, 89);
+<<<<<<< HEAD
 font-size: 17px;
  cursor: pointer;
  font-family: Uncut Sans, "__defaultFont_095b20", "__defaultFont_Fallback_095b20"
 
  }
+=======
+font-size: 15px;
+ cursor: pointer;
+ font-family: 'Uncut Sans';
+ font-weight: normal;
+
+ }
+ 
+>>>>>>> 6809c92 (few more little changes)
  .footer-thred .span-two{
      position: relative;
      left: 200px;
@@ -88,18 +121,31 @@ font-size: 17px;
  }
  .footer-end span{
     font-size: 90%;
+<<<<<<< HEAD
     font-weight: 500;
    font-family: Uncut Sans, "__defaultFont_095b20", "__defaultFont_Fallback_095b20"
+=======
+    font-family: 'Uncut Sans';
+ font-weight: normal;
+  
+>>>>>>> 6809c92 (few more little changes)
 
  }
  .footer-end button{
     outline: none;
     border: none;
     font-size: 14px;
+<<<<<<< HEAD
     font-weight: 900;
     transform: scale(.7, 1.2);
     cursor: pointer;
    font-family: Uncut Sans, "__defaultFont_095b20", "__defaultFont_Fallback_095b20"
+=======
+    transform: scale(.7, 1.2);
+    cursor: pointer;
+    font-family: 'Uncut Sans';
+     font-weight: 300;
+>>>>>>> 6809c92 (few more little changes)
 
  }
   .footer-end #btn1{
